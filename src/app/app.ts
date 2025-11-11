@@ -16,9 +16,7 @@ export class App {
 
   ngOnInit() {
     this.ngZone.runOutsideAngular(async () => {
-      const manifestUrl =
-        'https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json';
-
+      const manifestUrl = '/manifest.json';
       const config = {
         id: 'mirador',
 
