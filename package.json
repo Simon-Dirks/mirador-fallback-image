@@ -19,6 +19,12 @@
     ]
   },
   "private": true,
+  "browser": {
+    "http": false,
+    "https": false,
+    "url": false,
+    "util": false
+  },
   "dependencies": {
     "@angular/common": "^20.0.0",
     "@angular/compiler": "^20.0.0",
