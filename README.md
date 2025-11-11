@@ -1,4 +1,5 @@
 # Mirador Fallback Image demo
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/Simon-Dirks/mirador-fallback-image/tree/main)
 
 A minimal demo loading a Mirador instance with a manifest containing an image that is not available.
 
