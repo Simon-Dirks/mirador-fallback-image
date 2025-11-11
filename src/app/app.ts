@@ -23,6 +23,8 @@ export class App {
         windows: [
           {
             manifestId: manifestUrl,
+            thumbnailNavigationPosition: 'bottom',
+            thumbnailNavigationVisible: true,
           },
         ],
       };
