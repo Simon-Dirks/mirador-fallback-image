@@ -10,7 +10,7 @@ import Mirador from 'mirador/dist/es/src/index';
   styleUrl: './app.scss',
 })
 export class App {
-  protected title = 'mirador-injected-styles';
+  protected title = 'mirador-fallback-image';
 
   constructor(private ngZone: NgZone) {}
 

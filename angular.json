@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mirador-injected-styles": {
+    "mirador-fallback-image": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "mirador-injected-styles:build:production"
+              "buildTarget": "mirador-fallback-image:build:production"
             },
             "development": {
-              "buildTarget": "mirador-injected-styles:build:development"
+              "buildTarget": "mirador-fallback-image:build:development"
             }
           },
           "defaultConfiguration": "development"
